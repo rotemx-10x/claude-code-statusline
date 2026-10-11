@@ -68,8 +68,8 @@ stdin, and the script prints the two lines.
    jq '.statusLine' "$f"
    ```
 
-   If `jq` reports a parse error, the file is not plain JSON: stop, leave it unchanged, and tell
-   me.
+   If `jq` reports a parse error, the file is not plain JSON: delete the leftover
+   `settings.json.tmp`, leave `settings.json` unchanged, stop, and tell me.
 4. Smoke-test the script without starting Claude Code. Pipe a sample payload in and check that
    it prints two lines with no errors:
 
