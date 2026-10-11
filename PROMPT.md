@@ -1,7 +1,7 @@
 # Prompt: install the Claude Code status line
 
-Paste everything below the line into a Claude Code session on the computer where you want the
-status line. It installs the two-line status line from
+Copy this whole file (the Copy raw file button on GitHub) and paste it into a Claude Code
+session on the computer where you want the status line. It installs the two-line status line from
 https://github.com/rotemx-10x/claude-code-statusline and checks that it works.
 
 ---
