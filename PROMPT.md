@@ -33,7 +33,9 @@ stdin, and the script prints the two lines.
    for this system:
    - macOS: `brew install jq`. If Homebrew itself is missing, stop and tell me.
    - Linux: the distribution's package manager, for example `sudo apt install jq`.
-   - Windows: `winget install jqlang.jq`. A new program reaches the PATH only in a new terminal,
+   - Windows: `winget install jqlang.jq --accept-source-agreements --accept-package-agreements`
+     (without the two flags winget can stop to ask a question you cannot answer from here).
+     A new program reaches the PATH only in a new terminal,
      so if `command -v jq` still finds nothing afterwards, tell me to close Claude Code, open a
      new terminal, start Claude Code there and paste this prompt again.
 3. Confirm that `curl`, `git` and `awk` exist, and that Claude Code runs (`claude --version`).
